@@ -3,6 +3,65 @@
 {% block title %}About{% endblock %}
 
 {% block content %}
-<h1>About Us</h1>
-<p>This page contains information about your site.</p>
+<div class="max-w-6xl mx-auto p-8 mt-10">
+
+    <!-- Page Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">About Us</h1>
+        <p class="text-gray-600 text-lg">Learn more about who we are, what we do, and our mission.</p>
+    </div>
+
+    <!-- Mission & Vision Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
+        <div class="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-4">Our Mission</h2>
+            <p class="text-gray-700">Our mission is to provide high-quality services that empower our clients and improve their daily lives.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-4">Our Vision</h2>
+            <p class="text-gray-700">We envision a world where innovation and excellence drive growth and make a positive impact on society.</p>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Meet Our Team</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Team Member -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center">
+                <img src="https://via.placeholder.com/150" alt="Team Member" class="w-32 h-32 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">John Doe</h3>
+                <p class="text-gray-600">CEO</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center">
+                <img src="https://via.placeholder.com/150" alt="Team Member" class="w-32 h-32 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Jane Smith</h3>
+                <p class="text-gray-600">CTO</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center">
+                <img src="https://via.placeholder.com/150" alt="Team Member" class="w-32 h-32 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Alice Johnson</h3>
+                <p class="text-gray-600">Marketing</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center">
+                <img src="https://via.placeholder.com/150" alt="Team Member" class="w-32 h-32 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Bob Williams</h3>
+                <p class="text-gray-600">Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Story Section -->
+    <div class="bg-gray-50 p-8 rounded-lg shadow hover:shadow-lg transition">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4 text-center">Our Story</h2>
+        <p class="text-gray-700 text-center max-w-3xl mx-auto">
+            Founded in 2020, our company has grown from a small startup into a thriving organization committed to delivering excellence. 
+            Our team is passionate about creating solutions that make life easier and more enjoyable for our customers.
+        </p>
+    </div>
+
+</div>
 {% endblock %}
